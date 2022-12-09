@@ -257,7 +257,7 @@
     <Resource Include="Image\poisonous\Белый гриб боровик.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\poisonous\Белый гриб березовый %28колосовик%29.jpg" />
+    <Resource Include="Image\poisonous\Белый гриб березовый.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\poisonous\Белый гриб еловый.jpg" />
@@ -305,7 +305,7 @@
     <Resource Include="Image\Ydov\Волоконница острая.jpg" />
     <Resource Include="Image\Ydov\Волоконница патуйяра %28краснеющая%29.jpg" />
     <Resource Include="Image\Ydov\Гебелома горчичная.jpg" />
-    <Resource Include="Image\Ydov\Говорушка восковатая %28сероватая, листолюбивая%29.jpg" />
+    <Resource Include="Image\Ydov\Говорушка восковатая.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\protivoaidie\Бледная поганка%28противоядие%29.jpg" />

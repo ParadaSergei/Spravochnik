@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:spravochnikGribnika.View.Windows.conditionally"
         mc:Ignorable="d"
         Title="Условно съедобные" Width="1200" Height="600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
-    <Grid Background="#36c7b6">
+    <Grid Background="#7feb9b">
         <Frame x:Name="Infom" />
         <Button Height="30" Width="30" Grid.Column="1" Margin="1100,500,1,0" Background="transparent" Click="behand_Click">
             <Image Source="/Image/therow.jpg"/>

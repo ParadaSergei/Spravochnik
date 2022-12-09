@@ -12,7 +12,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <ListView x:Name="protiv" Background="#a1c5d4 "
+        <ListView x:Name="protiv" Background="#c391d9"
                   SelectedItem="{Binding SelectedUser}"
                   HorizontalAlignment="Left">
             <ListView.ItemTemplate>
@@ -26,7 +26,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <ScrollViewer Grid.ColumnSpan="2" Margin="365,0,0,0">
+        <ScrollViewer Grid.ColumnSpan="2" Margin="275,0,0,0">
             <StackPanel>
                 <TextBlock Text="{Binding Text}" Margin="1" FontSize="15"/>
             </StackPanel>

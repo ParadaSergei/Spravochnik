@@ -96,11 +96,11 @@ namespace spravochnikGribnika.View.Pages.ydov
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
-                if (item.Name == "Говорушка восковатая (сероватая, листолюбивая).jpg")
+                if (item.Name == "Говорушка восковатая.jpg")
                 {
                     user = new User()
                     {
-                        Name = "Говорушка восковатая (сероватая, листолюбивая)",
+                        Name = "Говорушка восковатая",
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }

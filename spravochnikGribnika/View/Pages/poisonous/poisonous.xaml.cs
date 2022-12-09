@@ -46,11 +46,11 @@ namespace spravochnikGribnika.View.Pages.poisonous
 
                 User user = null;
 
-                if (item.Name == "Белый гриб березовый (колосовик).jpg")
+                if (item.Name == "Белый гриб березовый.jpg")
                 {
                      user = new User()
                     {
-                        Name = "Белый гриб березовый (колосовик)",
+                        Name = "Белый гриб березовый",
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
