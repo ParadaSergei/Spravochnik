@@ -12,7 +12,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <ListView x:Name="ydov" Background="#c391d9"
+        <ListView x:Name="ydov" Background="#a2a5a6"
                   SelectedItem="{Binding SelectedUser}"
                   HorizontalAlignment="Left">
             <ListView.ItemTemplate>
@@ -21,7 +21,7 @@
                                VerticalAlignment="Center">
                         <Image Source="{Binding Image}"
                                Width="100" Height="100"/>
-                        <Run Text="{Binding Name}"/>
+                        <Run Text="{Binding Name}" />
                     </TextBlock>
                 </DataTemplate>
             </ListView.ItemTemplate>

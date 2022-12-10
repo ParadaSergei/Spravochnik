@@ -105,6 +105,22 @@ namespace spravochnikGribnika.View.Pages.edible
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
+                if (item.Name == "Вешенка рожковидная.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Вешенка рожковидная",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
+                if (item.Name == "Рядовка пятнистая.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Рядовка пятнистая",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
                 if (user != null)
                 {
                     userList.Add(user);

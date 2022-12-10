@@ -9,7 +9,7 @@
     <Grid>
         <Grid>
             <Grid.Background>
-                <ImageBrush ImageSource="/Image/trava.jpg"/>
+                <ImageBrush ImageSource="/Image/forests.jpg"/>
             </Grid.Background>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -26,43 +26,43 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Button  Grid.Column="1" Grid.Row="1" Background="transparent" Margin="0,0,0,30" Click="Vkus_Click"
+            <Button  Grid.Column="1" Grid.Row="1" Background="transparent" Margin="63,0,63,30" Click="Vkus_Click" Cursor="Hand"
                      Name ="poisonous">
-                <Image Source="/Image\us1.jpg"/>
+                <Image Source="/Image\us1.jpg" Margin="0"/>
             </Button>
-            <Button  Grid.Column="2" Grid.Row="1" Background="transparent" Margin="0,0,0,30" Click="edible_Click" 
+            <Button  Grid.Column="2" Grid.Row="1" Background="transparent" Margin="63,0,63,30" Click="edible_Click" Cursor="Hand"
                      Name ="edible">
-                <Image Source="/Image\us2.jpg"/>
+                <Image Source="/Image\us2.jpg" Margin="0"/>
             </Button>
-            <Button  Grid.Column="3" Grid.Row="1" Background="transparent" Margin="0,0,0,30" Click="conditionally_Click"
+            <Button  Grid.Column="3" Grid.Row="1" Background="transparent" Margin="63,0,63,30" Click="conditionally_Click" Cursor="Hand"
                      Name="conditionally">
-                <Image Source="/Image\us4.jpg"/>
+                <Image Source="/Image\us4.jpg" Margin="0"/>
             </Button>
-            <Button  Grid.Column="1" Grid.Row="2" Background="transparent" Margin="0,0,0,30" Click="inedible_Click" Name ="inedible">
-                <Image Source="/Image\no_ced.jpg"/>
+            <Button  Grid.Column="1" Grid.Row="2" Background="transparent" Margin="63,0,63,30" Click="inedible_Click" Cursor="Hand" Name ="inedible">
+                <Image Source="/Image\no_ced.jpg" Margin="0"/>
             </Button>
-            <Button  Grid.Column="2" Grid.Row="2" Background="transparent" Margin="0,0,0,30" Click="ogorod_Click"
+            <Button  Grid.Column="2" Grid.Row="2" Background="transparent" Margin="63,0,63,30" Click="ogorod_Click" Cursor="Hand" 
                      Name="Ogorod">
-                <Image Source="/Image\ogor.jpg"/>
+                <Image Source="/Image\ogor.jpg" Margin="0"/>
             </Button>
-            <Button  Grid.Column="3" Grid.Row="2" Background="transparent" Margin="0,0,0,30" Click="false_Click" Name ="false">
-                <Image Source="/Image\log.jpg"/>
+            <Button  Grid.Column="3" Grid.Row="2" Background="transparent" Margin="63,0,63,30" Click="false_Click" Name ="false" Cursor="Hand" >
+                <Image Source="/Image\log.jpg" Margin="0"/>
             </Button>
-            <Button  Grid.Column="2" Grid.Row="3" Background="transparent" Margin="0,0,0,30" Click="ydov_Click" Name ="ydov">
-                <Image Source="/Image\aidov.jpg"/>
+            <Button  Grid.Column="2" Grid.Row="3" Background="transparent" Margin="63,0,63,30" Click="ydov_Click" Name ="ydov" Cursor="Hand">
+                <Image Source="/Image\aidov.jpg" Margin="0"/>
             </Button>
-            <Button  Grid.Column="2" Grid.Row="5" x:Name="protivoaidie" Background="transparent" Margin="0,0,0,30" Click="vs_Click" Height="74" VerticalAlignment="Bottom">
-                <Image Source="/Image\shpric.jpg" Margin="0,0,0,0"/>
+            <Button  Grid.Column="2" Grid.Row="5" x:Name="protivoaidie" Background="transparent" Margin="42,0,42,30" Click="vs_Click" Height="74" VerticalAlignment="Bottom" Cursor="Hand">
+                <Image Source="/Image\shprice.jpg" Margin="0"/>
             </Button>
-            <Label Grid.ColumnSpan="5" Grid.Row="0" Content="Категория грибов:" HorizontalAlignment="Center"  Margin="0,10,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="40" Foreground="Black" ></Label>
-            <Label  Grid.Column="2" Grid.Row="5" Content="Лечение:" HorizontalAlignment="Center"  Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="Black" ></Label>
-            <Label Grid.Column="1" Grid.Row="1" Content="Вкусные"  HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="Black" ></Label>
-            <Label  Grid.Column="2" Grid.Row="1" Content="Съедобные:"  HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="Black" ></Label>
-            <Label   Grid.Column="3" Grid.Row="1"  Content="Условно съедобные:"   HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="16" Foreground="Black" ></Label>
-            <Label  Grid.Column="1" Grid.Row="2" Content="Несъедобные:"  HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="Black" ></Label>
-            <Label Grid.Column="2" Grid.Row="2" Content="Огородные:"  HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="Black" ></Label>
-            <Label Grid.Column="3" Grid.Row="2" Content="Ложные:"  HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="Black" ></Label>
-            <Label  Grid.Column="2" Grid.Row="3" Content="Ядовитые:" HorizontalAlignment="Center"  Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="Red" ></Label>
+            <Label Grid.ColumnSpan="5" Grid.Row="0" Content="Категория грибов:" HorizontalAlignment="Center"  Margin="0,10,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="50" Foreground="White" ></Label>
+            <Label Grid.ColumnSpan="3" Grid.Row="5" Content="Лечение:" HorizontalAlignment="Center"  Margin="157,70,157,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="White" Grid.Column="1" Height="34" VerticalAlignment="Top" ></Label>
+            <Label Grid.Column="1" Grid.Row="1" Content="Вкусные"  HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="White" ></Label>
+            <Label  Grid.Column="2" Grid.Row="1" Content="Съедобные:"  HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="White" ></Label>
+            <Label   Grid.Column="3" Grid.Row="1"  Content="Условно съедобные:"   HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="16" Foreground="White" ></Label>
+            <Label  Grid.Column="1" Grid.Row="2" Content="Несъедобные:"  HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="White" ></Label>
+            <Label Grid.Column="2" Grid.Row="2" Content="Огородные:"  HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="White" ></Label>
+            <Label Grid.Column="3" Grid.Row="2" Content="Ложные:"  HorizontalAlignment="Center" Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="White" ></Label>
+            <Label  Grid.Column="2" Grid.Row="3" Content="Ядовитые:" HorizontalAlignment="Center"  Margin="0,70,0,0" FontStyle="Normal" FontFamily="Sylfaen" FontSize="18" Foreground="#f55858" ></Label>
         </Grid>
     </Grid>
 </Window>

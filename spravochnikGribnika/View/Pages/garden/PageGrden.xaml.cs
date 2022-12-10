@@ -105,6 +105,23 @@ namespace spravochnikGribnika.View.Pages.garden
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
+
+                if (item.Name == "Опёнок зимний.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Опёнок зимний",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
+                if (item.Name == "Шиитаке.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Шиитаке",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
                 if (user != null)
                 {
                     userList.Add(user);

@@ -104,6 +104,22 @@ namespace spravochnikGribnika.View.Pages.ydov
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
+                if (item.Name == "Мицена чистая.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Мицена чистая",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
+                if (item.Name == "Мухомор красный.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Мухомор красный",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
                 if (user != null)
                 {
                     userList.Add(user);

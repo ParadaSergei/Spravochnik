@@ -12,7 +12,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <ListView x:Name="fasles" Background="#c391d9"
+        <ListView x:Name="fasles" Background="#a2a5a6"
                   SelectedItem="{Binding SelectedUser}"
                   HorizontalAlignment="Left">
             <ListView.ItemTemplate>

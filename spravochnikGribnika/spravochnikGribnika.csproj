@@ -274,9 +274,7 @@
   <ItemGroup>
     <Resource Include="Image\false\Опёнок серно-жёлтый.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View\InformationalFile\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Image\inedible\Рогатик крыночковидный.jpg" />
   </ItemGroup>
@@ -329,10 +327,123 @@
     <Resource Include="Image\protivoaidie\Говорушка восковатая %28сероватая, листолюбивая%29%28противоядие%29.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\shpric.jpg" />
+    <Resource Include="Image\shprice.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\protivoaidie\Медицина.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\forests.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\poisonous\Груздь белый.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\poisonous\Рыжик настоящий еловый.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\edible\Вешенка рожковидная.jpg" />
+    <Resource Include="Image\edible\Рядовка пятнистая.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\conditionally\Волнушка белая.jpg" />
+    <Resource Include="Image\conditionally\Груздь осиновый.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\inedible\Ложнодождевик.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\inedible\Паутинник камфорный.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Ogorod\Опёнок зимний.jpg" />
+    <Resource Include="Image\Ogorod\Шиитаке.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\false\Дубовик укорененный.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Ydov\Мицена чистая.jpg" />
+    <Resource Include="Image\Ydov\Мухомор красный.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\InformationalFile\conditionally\Белянка.txt" />
+    <Resource Include="View\InformationalFile\conditionally\Валуй.txt" />
+    <Resource Include="View\InformationalFile\conditionally\Волнушка белая.txt" />
+    <Resource Include="View\InformationalFile\conditionally\Волнушка розовая.txt" />
+    <Resource Include="View\InformationalFile\conditionally\Гладыш %28Млечник%29.txt" />
+    <Resource Include="View\InformationalFile\conditionally\Горькушка.txt" />
+    <Resource Include="View\InformationalFile\conditionally\Груздь дубовый %28подорешник%29.txt" />
+    <Resource Include="View\InformationalFile\conditionally\Груздь желтый %28ямчатый%29.txt" />
+    <Resource Include="View\InformationalFile\conditionally\Груздь осиновый.txt" />
+    <Resource Include="View\InformationalFile\edible\Вешенка дубовая.txt" />
+    <Resource Include="View\InformationalFile\edible\Вешенка ильмовая.txt" />
+    <Resource Include="View\InformationalFile\edible\Вешенка обыкновенная.txt" />
+    <Resource Include="View\InformationalFile\edible\Вешенка осенняя.txt" />
+    <Resource Include="View\InformationalFile\edible\Вешенка рожковидная.txt" />
+    <Resource Include="View\InformationalFile\edible\Лисичка серая.txt" />
+    <Resource Include="View\InformationalFile\edible\Масленок лиственничный.txt" />
+    <Resource Include="View\InformationalFile\edible\Мокруха розовая.txt" />
+    <Resource Include="View\InformationalFile\edible\Рядовка пятнистая.txt" />
+    <Resource Include="View\InformationalFile\false\Дубовик укорененный.txt" />
+    <Resource Include="View\InformationalFile\false\Ложная лисичка.txt" />
+    <Resource Include="View\InformationalFile\false\Ложный белый.txt" />
+    <Resource Include="View\InformationalFile\false\Ложный валуй.txt" />
+    <Resource Include="View\InformationalFile\false\Опёнок серно-жёлтый.txt" />
+    <Resource Include="View\InformationalFile\false\Рядовка мыльная.txt" />
+    <Resource Include="View\InformationalFile\false\Рядовка отличающаяся.txt" />
+    <Resource Include="View\InformationalFile\false\Сатаниский гриб.txt" />
+    <Resource Include="View\InformationalFile\inedible\Гигроцибе красная.txt" />
+    <Resource Include="View\InformationalFile\inedible\Ложнодождевик бородавчатый.txt" />
+    <Resource Include="View\InformationalFile\inedible\Ложнодождевик.txt" />
+    <Resource Include="View\InformationalFile\inedible\Лопастник курчавый.txt" />
+    <Resource Include="View\InformationalFile\inedible\Паутинник камфорный.txt" />
+    <Resource Include="View\InformationalFile\inedible\Паутинник козлиный.txt" />
+    <Resource Include="View\InformationalFile\inedible\Паутинник полускрученный.txt" />
+    <Resource Include="View\InformationalFile\inedible\Рогатик желтый.txt" />
+    <Resource Include="View\InformationalFile\inedible\Рогатик крыночковидный.txt" />
+    <Resource Include="View\InformationalFile\Lognie\Ложная лисичка.txt" />
+    <Resource Include="View\InformationalFile\Lognie\Ложный белый.txt" />
+    <Resource Include="View\InformationalFile\Lognie\Ложный валуй.txt" />
+    <Resource Include="View\InformationalFile\Lognie\Опёнок серно-жёлтый.txt" />
+    <Resource Include="View\InformationalFile\Lognie\Рядовка мыльная.txt" />
+    <Resource Include="View\InformationalFile\Lognie\Рядовка отличающаяся.txt" />
+    <Resource Include="View\InformationalFile\Lognie\Сатаниский гриб .txt" />
+    <Resource Include="View\InformationalFile\Ogorod\Вешенка.txt" />
+    <Resource Include="View\InformationalFile\Ogorod\Лисичка.txt" />
+    <Resource Include="View\InformationalFile\Ogorod\Маслёнок.txt" />
+    <Resource Include="View\InformationalFile\Ogorod\Опёнок зимний.txt" />
+    <Resource Include="View\InformationalFile\Ogorod\Подберезовик.txt" />
+    <Resource Include="View\InformationalFile\Ogorod\Подосиновик.txt" />
+    <Resource Include="View\InformationalFile\Ogorod\Трюфель.txt" />
+    <Resource Include="View\InformationalFile\Ogorod\Шампиньон.txt" />
+    <Resource Include="View\InformationalFile\Ogorod\Шиитаке.txt" />
+    <Resource Include="View\InformationalFile\poisonous\Белый гриб березовый.txt" />
+    <Resource Include="View\InformationalFile\poisonous\Белый гриб боровик.txt" />
+    <Resource Include="View\InformationalFile\poisonous\Белый гриб дубовый.txt" />
+    <Resource Include="View\InformationalFile\poisonous\Белый гриб еловый.txt" />
+    <Resource Include="View\InformationalFile\poisonous\Белый гриб медный.txt" />
+    <Resource Include="View\InformationalFile\poisonous\Белый гриб сосновый.txt" />
+    <Resource Include="View\InformationalFile\poisonous\Груздь белый.txt" />
+    <Resource Include="View\InformationalFile\poisonous\Груздь желтый.txt" />
+    <Resource Include="View\InformationalFile\poisonous\Рыжик настоящий еловый.txt" />
+    <Resource Include="View\InformationalFile\protivoaidie\Бледная поганка%28противоядие%29.txt" />
+    <Resource Include="View\InformationalFile\protivoaidie\Волоконница волокнистая%28противоядие%29.txt" />
+    <Resource Include="View\InformationalFile\protivoaidie\Волоконница земляная%28противоядие%29.txt" />
+    <Resource Include="View\InformationalFile\protivoaidie\Волоконница острая%28противоядие%29.txt" />
+    <Resource Include="View\InformationalFile\protivoaidie\Волоконница патуйяра %28краснеющая%29%28противоядие%29.txt" />
+    <Resource Include="View\InformationalFile\protivoaidie\Гебелома горчичная%28противоядие%29.txt" />
+    <Resource Include="View\InformationalFile\protivoaidie\Говорушка восковатая %28сероватая, листолюбивая%29%28противоядие%29.txt" />
+    <Resource Include="View\InformationalFile\protivoaidie\Медицина.txt" />
+    <Resource Include="View\InformationalFile\ydov\Бледная поганка.txt" />
+    <Resource Include="View\InformationalFile\ydov\Волоконница волокнистая.txt" />
+    <Resource Include="View\InformationalFile\ydov\Волоконница земляная.txt" />
+    <Resource Include="View\InformationalFile\ydov\Волоконница острая.txt" />
+    <Resource Include="View\InformationalFile\ydov\Волоконница патуйяра %28краснеющая%29.txt" />
+    <Resource Include="View\InformationalFile\ydov\Гебелома горчичная.txt" />
+    <Resource Include="View\InformationalFile\ydov\Говорушка восковатая.txt" />
+    <Resource Include="View\InformationalFile\ydov\Мицена чистая.txt" />
+    <Resource Include="View\InformationalFile\ydov\Мухомор красный.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

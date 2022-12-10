@@ -4,6 +4,5 @@
              xmlns:local="clr-namespace:spravochnikGribnika"
              StartupUri="View/Windows/GlavMenu.xaml">
     <Application.Resources>
-         
     </Application.Resources>
 </Application>

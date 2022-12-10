@@ -106,6 +106,14 @@ namespace spravochnikGribnika.View.Pages.falses
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
+                if (item.Name == "Дубовик укорененный.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Дубовик укорененный",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }         
                 if (user != null)
                 {
                     userList.Add(user);

@@ -104,6 +104,22 @@ namespace spravochnikGribnika.View.Pages.inedible
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
+                if (item.Name == "Ложнодождевик.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Ложнодождевик",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
+                if (item.Name == "Паутинник камфорный.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Паутинник камфорный",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
                 if (user != null)
                 {
                     userList.Add(user);

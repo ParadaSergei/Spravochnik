@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:spravochnikGribnika.View.Windows.protivoiadie"
         mc:Ignorable="d"
         Title="Противоядие" Width="1200" Height="600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
-    <Grid Background="#7feb9b">
+    <Grid Background="#028ac9">
         <Frame x:Name="protiv" />
         <Button Height="30" Width="30" Grid.Column="1" Margin="1100,500,1,0" Background="transparent"  Click="prot_Click">
             <Image Source="/Image/therow.jpg"/>

@@ -105,6 +105,22 @@ namespace spravochnikGribnika.View.Pages.poisonous
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
+                if (item.Name == "Груздь белый.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Груздь белый",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
+                if (item.Name == "Рыжик настоящий еловый.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Рыжик настоящий еловый",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
                 if (user != null)
                 {
                     userList.Add(user);

@@ -80,11 +80,11 @@ namespace spravochnikGribnika.View.Pages.conditionally
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
-                if (item.Name == "Горькушка.jpg")
+                if (item.Name == "Гладыш (Млечник).jpg")
                 {
                     user = new User()
                     {
-                        Name = "Горькушка",
+                        Name = "Гладыш (Млечник)",
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
@@ -101,6 +101,23 @@ namespace spravochnikGribnika.View.Pages.conditionally
                     user = new User()
                     {
                         Name = "Груздь желтый (ямчатый)",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
+
+                if (item.Name == "Волнушка белая.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Волнушка белая",
+                        Image = new BitmapImage(new Uri(item.FullName))
+                    };
+                }
+                if (item.Name == "Груздь осиновый.jpg")
+                {
+                    user = new User()
+                    {
+                        Name = "Груздь осиновый",
                         Image = new BitmapImage(new Uri(item.FullName))
                     };
                 }
