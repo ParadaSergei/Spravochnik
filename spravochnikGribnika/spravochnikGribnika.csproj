@@ -108,6 +108,9 @@
     <Compile Include="View\Windows\poisonous\poisonous.xaml.cs">
       <DependentUpon>poisonous.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Windows\programm\o_prog.xaml.cs">
+      <DependentUpon>o_prog.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Windows\protivoiadie\protivoyd.xaml.cs">
       <DependentUpon>protivoyd.xaml</DependentUpon>
     </Compile>
@@ -205,6 +208,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Windows\programm\o_prog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Windows\protivoiadie\protivoyd.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -274,7 +281,9 @@
   <ItemGroup>
     <Resource Include="Image\false\Опёнок серно-жёлтый.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Image\troe.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\inedible\Рогатик крыночковидный.jpg" />
   </ItemGroup>
@@ -444,6 +453,9 @@
     <Resource Include="View\InformationalFile\ydov\Говорушка восковатая.txt" />
     <Resource Include="View\InformationalFile\ydov\Мицена чистая.txt" />
     <Resource Include="View\InformationalFile\ydov\Мухомор красный.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\tr.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

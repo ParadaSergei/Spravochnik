@@ -27,9 +27,6 @@ namespace spravochnikGribnika.View.Pages.edible
     {
         private readonly PageViewModel _viewModel;
 
-        private string name;
-
-        public string Name { get; set; }
         public PageEdible(string name)
         {
             DataContext = _viewModel = new PageViewModel(name);

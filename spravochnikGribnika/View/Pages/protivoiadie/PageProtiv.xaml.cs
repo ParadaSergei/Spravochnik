@@ -26,9 +26,6 @@ namespace spravochnikGribnika.View.Pages.protivoiadie
     {
         private readonly PageViewModel _viewModel;
 
-        private string name;
-
-        public string Name { get; set; }
         public PageProtiv(string name)
         {
             DataContext = _viewModel = new PageViewModel(name);

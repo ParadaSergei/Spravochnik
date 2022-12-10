@@ -2,6 +2,7 @@
 using spravochnikGribnika.View.Pages.poisonous;
 using spravochnikGribnika.View.Windows.False;
 using spravochnikGribnika.View.Windows.garden;
+using spravochnikGribnika.View.Windows.programm;
 using spravochnikGribnika.View.Windows.protivoiadie;
 using spravochnikGribnika.View.Windows.ydov;
 using System;
@@ -83,6 +84,13 @@ namespace spravochnikGribnika.View.Windows
         {
             protivoyd ydovs = new protivoyd((sender as Button).Name);
             ydovs.Show();
+            this.Close();
+        }
+
+        private void oprog_Click(object sender, RoutedEventArgs e)
+        {
+            o_prog Prog = new o_prog();
+            Prog.Show();
             this.Close();
         }
     }

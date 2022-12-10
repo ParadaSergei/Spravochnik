@@ -26,10 +26,6 @@ namespace spravochnikGribnika.View.Pages.garden
     public partial class PageGrden : Page
     {
         private readonly PageViewModel _viewModel;
-
-        private string name;
-
-        public string Name { get; set; }
         public PageGrden(string name)
         {
             DataContext = _viewModel = new PageViewModel(name);

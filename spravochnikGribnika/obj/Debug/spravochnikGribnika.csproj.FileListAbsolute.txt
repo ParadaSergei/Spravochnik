@@ -108,3 +108,5 @@ D:\IS32\Proizv_prackik-news\Proizv_prackik-news\spravochnikGribnika\obj\Debug\Vi
 D:\IS32\Proizv_prackik-news\Proizv_prackik-news\spravochnikGribnika\obj\Debug\View\Windows\protivoiadie\protivoyd.g.cs
 D:\IS32\Proizv_prackik-news\Proizv_prackik-news\spravochnikGribnika\obj\Debug\View\Pages\protivoiadie\PageProtiv.baml
 D:\IS32\Proizv_prackik-news\Proizv_prackik-news\spravochnikGribnika\obj\Debug\View\Windows\protivoiadie\protivoyd.baml
+D:\IS32\Proizv_prackik-news\Proizv_prackik-news\spravochnikGribnika\obj\Debug\View\Windows\programm\o_prog.g.cs
+D:\IS32\Proizv_prackik-news\Proizv_prackik-news\spravochnikGribnika\obj\Debug\View\Windows\programm\o_prog.baml

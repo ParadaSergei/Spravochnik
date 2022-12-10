@@ -26,9 +26,6 @@ namespace spravochnikGribnika.View.Pages.ydov
     {
         private readonly PageViewModel _viewModel;
 
-        private string name;
-
-        public string Name { get; set; }
         public PageYdov(string name)
         {
             DataContext = _viewModel = new PageViewModel(name);

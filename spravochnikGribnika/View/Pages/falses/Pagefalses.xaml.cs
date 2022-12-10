@@ -28,9 +28,7 @@ namespace spravochnikGribnika.View.Pages.falses
 
         private readonly PageViewModel _viewModel;
 
-        private string name;
-
-        public string Name { get; set; }
+        
         public Pagefalses(string name)
         {
             DataContext = _viewModel = new PageViewModel(name);

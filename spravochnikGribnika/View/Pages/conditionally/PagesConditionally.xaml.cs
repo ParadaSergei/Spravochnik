@@ -26,9 +26,6 @@ namespace spravochnikGribnika.View.Pages.conditionally
     {
         private readonly PageViewModel _viewModel;
 
-        private string name;
-
-        public string Name { get; set; }
         public PagesConditionally(string name)
         {
             DataContext = _viewModel = new PageViewModel(name);

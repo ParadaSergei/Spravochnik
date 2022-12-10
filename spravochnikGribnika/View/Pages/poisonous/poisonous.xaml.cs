@@ -26,10 +26,6 @@ namespace spravochnikGribnika.View.Pages.poisonous
     public partial class Poisonous : Page
     {
         private readonly PageViewModel _viewModel;
-
-        private string name;
-
-        public string Name { get; set; }
         public Poisonous(string name)
         {
             DataContext = _viewModel = new PageViewModel(name);
